@@ -11,7 +11,8 @@
 angular
   .module('yapp', [
     'ui.router',
-    'ngAnimate'
+    'ngAnimate',
+    'angucomplete-alt'
   ])
   .config(function($stateProvider, $urlRouterProvider) {
 
@@ -41,10 +42,17 @@ angular
             parent: 'dashboard',
             templateUrl: 'views/dashboard/overview.html'
           })
+          .state('network', {
+            url: '/network',
+            parent: 'dashboard',
+            templateUrl: 'views/dashboard/network.html',
+            controller: 'NetworkCtrl'
+          })
           .state('reports', {
             url: '/reports',
             parent: 'dashboard',
-            templateUrl: 'views/dashboard/reports.html'
+            templateUrl: 'views/dashboard/reports.html',
+            controller: 'ReportsCtrl'
           });
 
   });

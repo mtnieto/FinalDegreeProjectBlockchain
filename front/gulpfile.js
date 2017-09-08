@@ -87,21 +87,24 @@ gulp.task('connect', ['styles'], function() {
     // paths to bower_components should be relative to the current file
     // e.g. in app/index.html you should use ../bower_components
     .use('/bower_components', serveStatic('bower_components'))
-    .use(function(req, res){res.setHeader("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  res.header("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT");})
+    .use(function(req, res){
+      res.setHeader("Access-Control-Allow-Origin", "*");
+      res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+      res.header("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT");
+    })
+
     .use(serveIndex('app'));
 
   require('http').createServer(app)
-    .listen(9000)
+    .listen(9002)
     .on('listening', function() {
-      console.log('Started connect web server on http://localhost:9000');
+      console.log('Started connect web server on http://localhost:9002');
     });
 });
 
 gulp.task('serve', ['wiredep', 'connect', 'fonts', 'watch'], function() {
   if (argv.open) {
-    require('opn')('http://localhost:9000');
+    require('opn')('http://localhost:9002');
   }
 });
 

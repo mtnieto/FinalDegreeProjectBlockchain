@@ -1,0 +1,16 @@
+<div>
+	<a ui-sref="reports" class="pull-right btn btn-primary btn-outline btn-rounded">Edit</a>
+	<h2>Blockchain Network<small></small></h2>
+	<div class="jumbotron">
+		<div class="container">
+
+			<p><b>Last Block Commited:</b> {{myvariable.result[1].block_height}}</p>
+			</br>
+			<p><b>Validator 1:</b>  {{validators.result[1].genesis.accounts[0].address}}</p>
+			<p><b>Validator 2:</b>  {{validators.result[1].genesis.accounts[3].address}}</p>
+			<p><b>Validator 3:</b>  {{validators.result[1].genesis.accounts[4].address}}</p>
+			<p><b>Validator 4:</b>  {{validators.result[1].genesis.accounts[5].address}}</p>
+			</br>
+			<p><b> Contract Address: </b> {{contract.result[1].accounts[5].address}}</p>
+		</div>
+	</div>
