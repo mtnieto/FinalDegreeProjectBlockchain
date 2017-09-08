@@ -52,28 +52,35 @@ For example, the coordination, the storage of records and the irrevocability of 
 Many blockchain applications can be found but most of them are currently focusing on digital banking. 
 
 ### The principal Blockchain use cases are the following:  ###
+
 1.	Peer to peer pays
 
 Up to the date, all types of bank stocks entail too run time. For example, if an entity wants to make a shipment of money to an entity B, due to the current situation, this process would take days to run.
 Using blockchain intermediaries would be eliminated so that the time would diminish greatly and, on the other hand, the associate costs also would descend.
+
 2.	Internet of things (IoT)
 
 IoT systems are based on models of communication centralized, using the paradigm known as client-server.
 Using a decentralized model, using peer to peer protocol, it would provide a new communications architecture and would reduce significantly the costs associated with the installation and the maintenance of big centralized data centres.
+
 3.	Voting Systems
 
 Electronic voting systems suffer a great defect in design: to use a centralized system. This implies that only there is a provider that controls the code, the database and the outputs of the system.
 Using Blockchain as a secure database and transparent would solve this problem and could register the votes of a reliable way.
+
 4.	Decentralized Markets
 
 A decentralized market is a structure of market that consists of a network of different devices that allow to create a market without a centralized place. This way, the technology offers to the buyers the access to several offers, making the direct dealing possible with other distributors.
+
 5.	Land registry
 
 Currently, the records of the property have some scourges such as fraud and corruption.
 The justification for the application of Blockchain to this field implies, decrease the costs of performing the property register, achieve transparency and security, eliminating corruption and fraud in the process and the most important, provide fastness title.
+
 6.	Digitization of assets and documents
 
 With the increase number of data types and formats, the need to integrate and share data through systems has become essential. For the greater part of organizations, this involves the balance delicate of those processes that move data between systems.
+
 7.	Authentication of assets
 
 The life future of goods can be drastically modified, through the existence of a record that contains its cycle of life and allow his tracking of the chain of supply.
